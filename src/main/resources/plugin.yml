@@ -1,0 +1,5 @@
+name: BlockBreakCounter
+version: ${project.version}
+author: GoodestEnglish
+main: me.goodestenglish.blockbreakcounter.BlockBreakCounter
+depend: [Maid]

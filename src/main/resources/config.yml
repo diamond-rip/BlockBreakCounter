@@ -1,0 +1,19 @@
+block-count: 0
+block-holograms:
+- "&fBreak this &bblock &ffor a special prize!"
+- "&fThis &cm&6y&es&at&be&9r&5y &fblock has been broken &b&l<count> &ftimes"
+block-location: ""
+messages:
+  successfully-set-block-location: "&aSuccessfully set the block location!"
+  give-settings-stick: "&aSuccessfully give a settings stick to you!"
+  restart-required: "&ePlease restart the server to make the hologram appear!"
+  win-price: "&b&lCONGRATS!!! &fYou win the reward!"
+reward:
+  command:
+  #<command>;<The message you want to send to the winner>
+  - "money add <player> 1;Example1 command executed"
+  - "example2;Example2 command executed"
+  execute-when-reached-block-count:
+  - 10
+  - 20
+  - 30
